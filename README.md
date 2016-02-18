@@ -3,11 +3,11 @@ Test project to reproduce a Facebook Audience iOS SDK crash related to FBAdChoic
 
 ## Steps to reproduce:
 
-1) Search the string "YOUR_PLACEMENT_ID_HERE" and replace it with your test placement ID from Facebook Audience.
-2) Build and launch the project on iOS 9 device/simulator.
-3) When the native ad is displayed, click on the AdChoices icon in the upper right corner.
-4) It should display a webview, click on "OK" to dismiss it.
-5) Normally, it should crash after 1 or 2 seconds with this type of stacktrace:
+1. Search the string "YOUR_PLACEMENT_ID_HERE" and replace it with your test placement ID from Facebook Audience.
+2. Build and launch the project on iOS 9 device/simulator.
+3. When the native ad is displayed, click on the AdChoices icon in the upper right corner.
+4. It should display a webview, click on "OK" to dismiss it.
+5. Normally, it should crash after 1 or 2 seconds with this type of stacktrace:
 
 ```
 #0	0x228cdc84 in __pthread_kill ()
